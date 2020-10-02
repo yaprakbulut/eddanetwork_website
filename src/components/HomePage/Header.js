@@ -7,12 +7,12 @@ import SwiftSlider from "react-swift-slider";
 const data = [
   {
     id: "1",
-    src: '../../images/image1_.png',
+    src: "https://user-images.githubusercontent.com/36292743/94957578-d2a25880-04a2-11eb-92b7-c16874eb2aa6.png",
   },
   {
     id: "2",
     src:
-      "https://media.mfbproject.co.za/repos/2017_alfa_romeo_stelvioquadrifoglio_official_09.jpg",
+      "https://user-images.githubusercontent.com/36292743/94957578-d2a25880-04a2-11eb-92b7-c16874eb2aa6.png",
   },
   {
     id: "3",
