@@ -9,17 +9,17 @@ export const Links=[
     },
     {   
         id:2,
-        link:"Blog",
+        link:"Hakkımızda",
         path:'/blog'
     },
     {
         id:3,
-        link:"Biography",
+        link:"Hizmetlerimiz",
         path:'/biography'
     },
     {
         id:4,
-        link:"Interiors",
+        link:"Projelerimiz",
         path:'/interiors'
     },
     {  
@@ -29,7 +29,7 @@ export const Links=[
     },
     {
         id:6,
-        link:"Contact",
+        link:"İletişim",
         path:'/contact'
     },
     {
