@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../logo_1.png";
 import styled from "styled-components";
 import BackImage from "../../src/images/home.jpg";
+import SwiftSlider from "react-swift-slider";
 import { Link } from "react-router-dom";
 import { ProductConsumer } from "./Context/Context";
 
@@ -114,7 +115,7 @@ const NavWrapper = styled.div`
   }
 
   .links li a:hover {
-    color: #41e1b3;
+    color: red;
     display: block;
     padding: 10px 25px;
     border-bottom: 1px solid #049fe1;
@@ -167,7 +168,7 @@ const NavWrapper = styled.div`
     .links li a:hover {
       margin: 0 2px;
       padding: 10px;
-      border: 1px solid #049fe1;
+      border: 1px solid red;
       background: transparent;
     }
 
