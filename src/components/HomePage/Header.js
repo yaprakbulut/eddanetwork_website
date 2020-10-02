@@ -1,14 +1,13 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
 import styled from "styled-components";
-import BackImage from "../../images/home.jpg";
 import SwiftSlider from "react-swift-slider";
+//import image1 from './images/image1.png';
 
 const data = [
   {
     id: "1",
-    src:
-      "https://media.mfbproject.co.za/repos/2017_alfa-romeo_stelvio_leaked_02.jpg",
+    src: '../../images/image1_.png',
   },
   {
     id: "2",
