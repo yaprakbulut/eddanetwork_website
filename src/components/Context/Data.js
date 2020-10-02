@@ -2,12 +2,12 @@
 export const Links = [
   {
     id: 1,
-    link: "Home",
+    link: "Anasayfa",
     path: "/",
   },
   {
     id: 2,
-    link: "Hizmetlerimiz",
+    link: "Blog",
     path: "/blog",
   },
   {
