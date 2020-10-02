@@ -58,7 +58,7 @@ const NavWrapper = styled.div`
   z-index: 6;
 
   background: ${(props) =>
-    props.posit ? "rgba(0,0,0,0.7)" : "rgba(0,0,0,0.3)"};
+    props.posit ? "rgba(255,255,255,0.7)" : "rgba(255,255,255,0.3)"};
   transition: ${(props) =>
     props.posit ? "all 0.5s ease-in-out" : "all 0s ease-in-out"};
   opacity: ${(props) => (props.posit ? "1" : "0.9")};
@@ -66,8 +66,8 @@ const NavWrapper = styled.div`
   .logoBtn img {
     display: block;
     padding: 0px;
-    width: 200px;
-    height: 100px;
+    width: 150px;
+    height: 105px;
   }
 
   .header-container {
@@ -97,14 +97,14 @@ const NavWrapper = styled.div`
     bottom: 0px;
     left: 0px;
     right: 0;
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(255, 255, 255, 0.9);
     width: 400px;
     transform: ${(props) =>
       props.show ? "translate(0%)" : "translate(-100%)"};
   }
 
   .links li a {
-    color: #fff;
+    color: #000;
     display: block;
     text-transform: uppercase;
     padding: 10px;

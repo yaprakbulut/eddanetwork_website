@@ -22,10 +22,10 @@ export default function Header() {
 }
 
 
-
+//delete background image
 const HeroWrapper = styled.header`
  min-height:60vh;
- background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(${BackImage}) center/cover no-repeat;
+ background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)) center/cover no-repeat;
  display:flex;
  align-items:center;
  margin-top:-90px;
