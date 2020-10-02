@@ -4,7 +4,7 @@
 export const Links=[
     {
         id:1,
-        link:"Home",
+        link:"Anasayfa",
         path:'/'
     },
     {   
