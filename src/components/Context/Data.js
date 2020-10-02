@@ -1,5 +1,4 @@
 // for navbar
-<<<<<<< HEAD
 export const Links=[
     {
         id:1,
@@ -39,45 +38,6 @@ export const Links=[
     
 ]
 
-=======
-export const Links = [
-  {
-    id: 1,
-    link: "Anasayfa",
-    path: "/",
-  },
-  {
-    id: 2,
-    link: "Blog",
-    path: "/blog",
-  },
-  {
-    id: 3,
-    link: "Biography",
-    path: "/biography",
-  },
-  {
-    id: 4,
-    link: "Interiors",
-    path: "/interiors",
-  },
-  {
-    id: 5,
-    link: "Events",
-    path: "/events",
-  },
-  {
-    id: 6,
-    link: "Contact",
-    path: "/contact",
-  },
-  {
-    id: 7,
-    link: "Inspirations",
-    path: "/inspirations",
-  },
-];
->>>>>>> 15c14625e2869f1504d0bf6fd58b04fec07caeb3
 
 // for services
 export const Services = [

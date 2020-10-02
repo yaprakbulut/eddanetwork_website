@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../eddalogo.png";
+import logo from "../logo_1.png";
 import styled from "styled-components";
 import BackImage from "../../src/images/home.jpg";
 import { Link } from "react-router-dom";
