@@ -15,8 +15,8 @@ export default function HomePage() {
         <div>
            
             <Header />
-            <Services />
             <Portfolio />
+            <Services />
             <JustDefault />
             <Twitter />
             <WhoIs />

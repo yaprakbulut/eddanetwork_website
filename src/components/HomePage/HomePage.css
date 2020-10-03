@@ -12,7 +12,7 @@
 /* services section */
 
 .services {
-  background: #92b960;
+  background: #ff0012;
   padding: 30px 10px;
   color: #f1f1f6;
   margin: 0 auto;
@@ -75,8 +75,6 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  display: flex;
-  position: relative;
 }
 
 .plus {
@@ -95,6 +93,7 @@
   transform: translateY(-70%);
   transition: transform 1s ease-in-out;
   font-size: 30px;
+
 }
 
 .single-portfolio:hover .plus {
@@ -105,6 +104,7 @@
 .single-portfolio:hover .fa-plus {
   transform: translateY(0%);
 }
+
 
 /* responsive mode */
 @media screen and (min-width: 664px) {
