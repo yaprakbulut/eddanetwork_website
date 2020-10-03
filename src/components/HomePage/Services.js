@@ -13,7 +13,7 @@ return (
     return(
         <section className="services">
          <div className="inside-container">
-             <Title title="Services" color="#fff" />
+             <Title title="HİZMETLERİMİZ" color="#fff" />
              <div className="services-center">
         {services.map(service=>{
             return(

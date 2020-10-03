@@ -44,30 +44,22 @@ export const Services = [
   {
     id: 1,
     icon: "fas fa-home",
-    column: "Column 1",
-    text:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laboriosam et quibusdam. Vero laboriosam obcaecati autem quos saepe eaque",
+    column: "SİGORTA SEKTÖRÜ",
   },
   {
     id: 2,
     icon: "fas fa-archway",
-    column: "Column 2",
-    text:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laboriosam et quibusdam. Vero laboriosam obcaecati autem quos saepe eaque",
+    column: "OTEL-HASTANE İŞLETMELERİ",
   },
   {
     id: 3,
     icon: "fas fa-paint-roller",
-    column: "Column 3",
-    text:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laboriosam et quibusdam. Vero laboriosam obcaecati autem quos saepe eaque",
+    column: "YAYINEVLERİ",
   },
   {
     id: 4,
     icon: "fas fa-crop-alt",
-    column: "Column 4",
-    text:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam laboriosam et quibusdam. Vero laboriosam obcaecati autem quos saepe eaque",
+    column: "SIRAMATİK, KİOSK, ENFERMASYON EKRANI VE SAYISAL BİLGİ SUNUM EKRANI",
   },
 ];
 

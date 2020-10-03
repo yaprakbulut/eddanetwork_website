@@ -67,7 +67,7 @@ const HeroWrapper = styled.header`
     font-size: 18px;
     text-transform: uppercase;
     color: lightgray;
-    background: rgba(58, 65, 71, 0.8);
+    background: rgba(255, 0, 18, 0.8);
     margin: 5px;
     padding: 5px;
     font-weight: 400;
