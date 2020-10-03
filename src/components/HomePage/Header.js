@@ -1,40 +1,42 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
 import styled from "styled-components";
-import BackImage from "../../images/home.jpg";
+import Image from "../../images/image1.png";
 import SwiftSlider from "react-swift-slider";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Carousel from "react-bootstrap/Carousel";
 
-const data = [
-  {
-    id: "1",
-    src:
-      "https://media.mfbproject.co.za/repos/2017_alfa-romeo_stelvio_leaked_02.jpg",
-  },
-  {
-    id: "2",
-    src:
-      "https://media.mfbproject.co.za/repos/2017_alfa_romeo_stelvioquadrifoglio_official_09.jpg",
-  },
-  {
-    id: "3",
-    src:
-      "https://media.mfbproject.co.za/repos/2018-alfa-romeo-stelvio-quadrifoglio-specs-photos-speed-2.jpg",
-  },
-  {
-    id: "4",
-    src:
-      "https://media.mfbproject.co.za/repos/alfa-romeo-giulia-quadrifoglio-2017-us-wallpapers-and-hd-images-13.jpg",
-  },
-  {
-    id: "5",
-    src:
-      "https://media.mfbproject.co.za/repos/ARWP_Infra_Desk_1920_1080_Quad.png",
-  },
-];
 export default function Header() {
   return (
     <div className="inside-container">
-      <SwiftSlider data={data} height={400} />
+      <div>
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              height={500}
+              src={Image}
+              alt="First slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              height={500}
+              src="https://media.mfbproject.co.za/repos/2017_alfa_romeo_stelvioquadrifoglio_official_09.jpg"
+              alt="Third slide"
+            />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              height={500}
+              src="https://media.mfbproject.co.za/repos/ARWP_Infra_Desk_1920_1080_Quad.png"
+              alt="Third slide"
+            />
+          </Carousel.Item>
+        </Carousel>
+      </div>
     </div>
   );
 }
@@ -76,6 +78,7 @@ const HeroWrapper = styled.header`
 
   @media screen and (min-width: 880px) {
     min-height: 100vh;
+    max-width: 100%;
 
     .heroTexts h1 {
       font-size: 30px;
