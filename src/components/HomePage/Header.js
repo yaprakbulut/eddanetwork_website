@@ -7,27 +7,27 @@ import SwiftSlider from "react-swift-slider";
 const data = [
   {
     id: "1",
-    src: "https://user-images.githubusercontent.com/36292743/94958742-e77feb80-04a4-11eb-8c43-f0dd44a999e5.png",
+    src: "https://user-images.githubusercontent.com/36292743/94988095-a37dfc80-051f-11eb-8a3f-f7196c08b5d1.png",
   },
   {
     id: "2",
     src:
-      "https://user-images.githubusercontent.com/36292743/94957578-d2a25880-04a2-11eb-92b7-c16874eb2aa6.png",
+      "https://user-images.githubusercontent.com/36292743/94988095-a37dfc80-051f-11eb-8a3f-f7196c08b5d1.png",
   },
   {
     id: "3",
     src:
-      "https://media.mfbproject.co.za/repos/2018-alfa-romeo-stelvio-quadrifoglio-specs-photos-speed-2.jpg",
+      "https://user-images.githubusercontent.com/36292743/94988095-a37dfc80-051f-11eb-8a3f-f7196c08b5d1.png",
   },
   {
     id: "4",
     src:
-      "https://media.mfbproject.co.za/repos/alfa-romeo-giulia-quadrifoglio-2017-us-wallpapers-and-hd-images-13.jpg",
+      "https://user-images.githubusercontent.com/36292743/94988095-a37dfc80-051f-11eb-8a3f-f7196c08b5d1.png",
   },
   {
     id: "5",
     src:
-      "https://media.mfbproject.co.za/repos/ARWP_Infra_Desk_1920_1080_Quad.png",
+      "https://user-images.githubusercontent.com/36292743/94988095-a37dfc80-051f-11eb-8a3f-f7196c08b5d1.png",
   },
 ];
 export default function Header() {
