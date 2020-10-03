@@ -12,17 +12,11 @@ export default function Header() {
       <div>
         <Carousel>
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              height={500}
-              src={Image}
-              alt="First slide"
-            />
+            <img className="d-block w-100" src={Image} alt="First slide" />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              height={500}
               src="https://media.mfbproject.co.za/repos/2017_alfa_romeo_stelvioquadrifoglio_official_09.jpg"
               alt="Third slide"
             />
@@ -30,7 +24,6 @@ export default function Header() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              height={500}
               src="https://media.mfbproject.co.za/repos/ARWP_Infra_Desk_1920_1080_Quad.png"
               alt="Third slide"
             />
@@ -78,7 +71,6 @@ const HeroWrapper = styled.header`
 
   @media screen and (min-width: 880px) {
     min-height: 100vh;
-    max-width: 100%;
 
     .heroTexts h1 {
       font-size: 30px;
