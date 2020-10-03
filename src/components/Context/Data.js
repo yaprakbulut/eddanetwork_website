@@ -1,43 +1,41 @@
 // for navbar
-export const Links=[
-    {
-        id:1,
-        link:"Anasayfa",
-        path:'/'
-    },
-    {   
-        id:2,
-        link:"Hakkımızda",
-        path:'/blog'
-    },
-    {
-        id:3,
-        link:"Hizmetlerimiz",
-        path:'/biography'
-    },
-    {
-        id:4,
-        link:"Projelerimiz",
-        path:'/interiors'
-    },
-    {  
-        id:5,
-        link:"Events",
-        path:'/events'
-    },
-    {
-        id:6,
-        link:"İletişim",
-        path:'/contact'
-    },
-    {
-        id:7,
-        link:"Inspirations",
-        path:'/inspirations'
-    },
-    
-]
-
+export const Links = [
+  {
+    id: 1,
+    link: "Anasayfa",
+    path: "/",
+  },
+  {
+    id: 2,
+    link: "Hakkımızda",
+    path: "/blog",
+  },
+  {
+    id: 3,
+    link: "Hizmetlerimiz",
+    path: "/biography",
+  },
+  {
+    id: 4,
+    link: "Projelerimiz",
+    path: "/interiors",
+  },
+  {
+    id: 5,
+    link: "Events",
+    path: "/events",
+  },
+  {
+    id: 6,
+    link: "İletişim",
+    path: "/contact",
+  },
+  {
+    id: 7,
+    link: "Inspirations",
+    path: "/inspirations",
+  },
+];
 
 // for services
 export const Services = [
@@ -59,7 +57,8 @@ export const Services = [
   {
     id: 4,
     icon: "fas fa-crop-alt",
-    column: "SIRAMATİK, KİOSK, ENFERMASYON EKRANI VE SAYISAL BİLGİ SUNUM EKRANI",
+    column:
+      "SIRAMATİK, KİOSK, ENFERMASYON EKRANI VE SAYISAL BİLGİ SUNUM EKRANI",
   },
 ];
 

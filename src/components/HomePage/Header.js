@@ -1,43 +1,11 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
 import styled from "styled-components";
-<<<<<<< HEAD
 import Image from "../../images/image1.png";
 import SwiftSlider from "react-swift-slider";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
 
-=======
-import SwiftSlider from "react-swift-slider";
-//import image1 from './images/image1.png';
-
-const data = [
-  {
-    id: "1",
-    src: "https://user-images.githubusercontent.com/36292743/94988095-a37dfc80-051f-11eb-8a3f-f7196c08b5d1.png",
-  },
-  {
-    id: "2",
-    src:
-      "https://user-images.githubusercontent.com/36292743/94988095-a37dfc80-051f-11eb-8a3f-f7196c08b5d1.png",
-  },
-  {
-    id: "3",
-    src:
-      "https://user-images.githubusercontent.com/36292743/94988095-a37dfc80-051f-11eb-8a3f-f7196c08b5d1.png",
-  },
-  {
-    id: "4",
-    src:
-      "https://user-images.githubusercontent.com/36292743/94988095-a37dfc80-051f-11eb-8a3f-f7196c08b5d1.png",
-  },
-  {
-    id: "5",
-    src:
-      "https://user-images.githubusercontent.com/36292743/94988095-a37dfc80-051f-11eb-8a3f-f7196c08b5d1.png",
-  },
-];
->>>>>>> acf901792296d4b7a0b75bc9b989cfa7d0d18d4d
 export default function Header() {
   return (
     <div className="inside-container">
