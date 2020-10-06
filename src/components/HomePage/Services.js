@@ -1,38 +1,50 @@
-import React from 'react';
-import Title from '../Title';
-import {ProductConsumer} from '../Context/Context';
-import Roll from 'react-reveal/Roll';
-
-
+import React from "react";
+import Title from "../Title";
+import { ProductConsumer } from "../Context/Context";
+import Roll from "react-reveal/Roll";
+import CardDeck from "react-bootstrap/CardDeck";
+import Card from "react-bootstrap/Card";
 
 export default function Services() {
-return (
+  return (
     <ProductConsumer>
-    {value=>{
-        const {services}= value;
-    return(
-        <section className="services">
-         <div className="inside-container">
-             <Title title="HİZMETLERİMİZ" color="#FFFF" />
-             <div className="services-center">
-        {services.map(service=>{
-            return(
-               <Roll>
-                    <div className="single-service" key={service.id}>
-                   <i className={service.icon}></i>
-                   <div className="texts">
-            <h2>{service.column}</h2>
-            <p>{service.text}</p>
-                   </div>
-                </div>
-               </Roll>
-            )
-        })}
-             </div>
-         </div>
-        </section>
-    )
-    }}
+      {(value) => {
+        const { services } = value;
+        return (
+          <section className="services">
+            <div className="inside-container">
+              <Title title="HİZMETLERİMİZ" color="#df080e" />
+              <div className="services-center">
+                {services.map((service) => {
+                  return (
+                    <CardDeck>
+                      <Card
+                        style={{ width: "15rem", backgroundColor: "#df080e" }}
+                        text="white"
+                        className="text-center p-3"
+                      >
+                        <Card.Body style={{ padding: "0.5rem" }}>
+                          <Card.Text>
+                            <Roll>
+                              <div className="single-service" key={service.id}>
+                                <i className={service.icon}></i>
+                                <div className="texts">
+                                  <h2>{service.column}</h2>
+                                  <p>{service.text}</p>
+                                </div>
+                              </div>
+                            </Roll>
+                          </Card.Text>
+                        </Card.Body>
+                      </Card>
+                    </CardDeck>
+                  );
+                })}
+              </div>
+            </div>
+          </section>
+        );
+      }}
     </ProductConsumer>
-)
+  );
 }
