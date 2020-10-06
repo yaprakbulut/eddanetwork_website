@@ -41,24 +41,23 @@ export const Links = [
 export const Services = [
   {
     id: 1,
-    icon: "fas fa-home",
-    column: "SİGORTA SEKTÖRÜ",
+    icon: "fas fa-cogs",
+    column: "ERP",
   },
   {
     id: 2,
-    icon: "fas fa-archway",
-    column: "OTEL-HASTANE İŞLETMELERİ",
+    icon: "fas fa-warehouse",
+    column: "METAL KEPENK KONTROL OTOMASYONU",
   },
   {
     id: 3,
-    icon: "fas fa-paint-roller",
+    icon: "fas fa-book-open",
     column: "YAYINEVLERİ",
   },
   {
     id: 4,
-    icon: "fas fa-crop-alt",
-    column:
-      "SIRAMATİK, KİOSK, ENFERMASYON EKRANI VE SAYISAL BİLGİ SUNUM EKRANI",
+    icon: "fas fa-tablet-alt",
+    column: "KİOSK ",
   },
 ];
 

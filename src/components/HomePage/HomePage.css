@@ -23,13 +23,16 @@
 }
 
 .single-service .fas {
-  font-size: 30px;
-  margin-top: 30px;
+  font-size: 100px;
+  margin-top: 10px;
+  color: rgba(1, 1, 20, 0.452);
 }
 
 .single-service .texts h2 {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
+  margin-top: 20px;
+  color: black;
 }
 
 /* responsive */
@@ -57,6 +60,7 @@
 
   .single-service {
     margin: 10px 0;
+
     flex: 0 0 calc(25% - 20px);
   }
 }

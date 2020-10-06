@@ -19,8 +19,14 @@ export default function Services() {
                   return (
                     <CardDeck>
                       <Card
-                        style={{ width: "15rem", backgroundColor: "#df080e" }}
-                        text="white"
+                        border="danger"
+                        style={{
+                          width: "15rem",
+                          borderWidth: "0.3rem",
+                          borderRadius: "2rem",
+                          marginLeft: "2px",
+                        }}
+                        text="dark"
                         className="text-center p-3"
                       >
                         <Card.Body style={{ padding: "0.5rem" }}>
