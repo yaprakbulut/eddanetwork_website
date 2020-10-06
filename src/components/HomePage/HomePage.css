@@ -530,12 +530,25 @@ footer ul li a:hover {
 }
 
 .footer-copyright{
-  text-shadow: darkgray;
   text-align: center;
   padding: 1em;
-  background-color: #6c757d;
+  background-color:#bdc0c2;
 }
-.copyright{
-  color: #000;
-  text-align: center;
+.mb-0{
+  font-weight: lighter;
 }
+.footer-link{
+  font-weight: normal;
+  color: black;
+}
+.footer-link:hover{
+  font-weight: normal;
+  color: red;
+}
+.icon .fab{
+  color: white;
+}
+.icon .fab:hover{
+  color: rgba(206, 204, 204, 1);
+}
+

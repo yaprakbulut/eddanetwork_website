@@ -18,8 +18,8 @@ export default function Footer() {
                     <h6 class="mb-0">Get connected with us on social networks!</h6>
                 </div>
                 <div class="col-md-6 col-lg-7 text-center text-md-right">
-
-                    <a class="fb-ic">
+                <div className="icon">
+                <a class="fb-ic">
                     <i class="fab fa-facebook-f white-text mr-4"> </i>
                     </a>
                     <a class="tw-ic">
@@ -34,6 +34,9 @@ export default function Footer() {
                     <a class="ins-ic">
                     <i class="fab fa-instagram white-text"> </i>
                     </a>
+                </div>
+
+                    
 
                 </div>
 
@@ -49,23 +52,23 @@ export default function Footer() {
                 <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
 
                 <h6 class="text-uppercase font-weight-bold">EDDANETWORK</h6>
-                <p>Yazılım ve otomasyon şirketidir.</p>
+                <p >Yazılım ve otomasyon şirketidir.</p>
 
                 </div>
                 <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
 
                 <h6 class="text-uppercase font-weight-bold">Products</h6>
                 <p>
-                    <a href="#!">MDBootstrap</a>
+                    <a className="footer-link" href="#!">MDBootstrap</a>
                 </p>
                 <p>
-                    <a href="#!">MDWordPress</a>
+                    <a className="footer-link" href="#!">MDWordPress</a>
                 </p>
                 <p>
-                    <a href="#!">BrandFlow</a>
+                    <a className="footer-link" href="#!">BrandFlow</a>
                 </p>
                 <p>
-                    <a href="#!">Bootstrap Angular</a>
+                    <a className="footer-link" href="#!">Bootstrap Angular</a>
                 </p>
 
                 </div>
@@ -73,16 +76,16 @@ export default function Footer() {
 
                 <h6 class="text-uppercase font-weight-bold">Useful links</h6>
                 <p>
-                    <a href="#!">Your Account</a>
+                    <a className="footer-link" href="#!">Your Account</a>
                 </p>
                 <p>
-                    <a href="#!">Become an Affiliate</a>
+                    <a className="footer-link" href="#!">Become an Affiliate</a>
                 </p>
                 <p>
-                    <a href="#!">Shipping Rates</a>
+                    <a className="footer-link" href="#!">Shipping Rates</a>
                 </p>
                 <p>
-                    <a href="#!">Help</a>
+                    <a className="footer-link" href="#!">Help</a>
                 </p>
 
                 </div>
@@ -101,8 +104,8 @@ export default function Footer() {
             </div>
 
             </div>
-            <div class="footer-copyright text-center py-3">
-            <p className="copyright"> © 2020 Copyright: Eddanetwork.com </p>
+            <div class="footer-copyright">
+                <div className="footer-copyright-text">© 2020 Copyright: Eddanetwork.com</div>
             </div>
 
             </footer>
