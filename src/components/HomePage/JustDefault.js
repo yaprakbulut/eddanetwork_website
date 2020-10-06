@@ -1,19 +1,23 @@
 import React from 'react';
 import Title from '../Title';
+import Image from "../../images/bora.jpeg";
 
 export default function JustDefault() {
     return (
         <div className="just-default">
            <div className="inside-container">
-               <Title title="just default sectiom" color="#aab5b9" />
+               <Title title="BORA Uzaktan Eğitim" color="#FF0012" />
 
                <div className="just-default-center">
                    <div className="just-texts">
-                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, perspiciatis? Autem debitis facere nihil temporibus deleniti error quasi incidunt atque, quas iure non quis et numquam dolorum excepturi quisquam illo.</p>
-
+                        <p>Bora Uzaktan Eğitim Sitesi, uzaktan eğitimin gerçkleştiği bir sitedir. </p>
+                        <a className="Button" href="https://bora.eddanetwork.com/">
+                        Detaylı Bilgi İçin Tıklayınız.
+                        </a>
+                       
                    </div>
                    <div className="just-video">
-                   <iframe   src="https://www.youtube.com/embed/g-5O2HTbk08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style={{border:"none"}}></iframe>
+                    <img src={Image} width="500" height="300" />
                    </div>
                </div>
            </div>

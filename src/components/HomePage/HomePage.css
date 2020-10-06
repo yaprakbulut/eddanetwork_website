@@ -12,24 +12,26 @@
 /* services section */
 
 .services {
-  background: #ff0012;
-  padding: 30px 10px;
-  color: #f1f1f6;
+  background:#df080e;
+  padding: 10px 10px;
+  color: white;
   margin: 0 auto;
 }
 
 .single-service {
   margin: 0 auto;
-  margin-top: 40px;
 }
 
 .single-service .fas {
-  font-size: 40px;
+  font-size: 30px;
+  margin-top: 30px;
 }
 
 .single-service .texts h2 {
-  font-weight: 400;
+  font-weight: 200;
+  font-size: x-large;
 }
+
 
 /* responsive */
 @media screen and (min-width: 664px) {
@@ -46,7 +48,7 @@
 
 @media screen and (min-width: 978px) {
   .services {
-    padding: 60px 0;
+    padding: 30px 0;
   }
   .services-center {
     display: flex;
@@ -142,7 +144,6 @@
 /* just default section */
 
 .just-default {
-  background: #516067;
   padding: 30px 10px;
 }
 
@@ -151,7 +152,7 @@
 }
 
 .just-texts p {
-  color: #aab5b9;
+  color: rgba(0, 0, 0, 0.6);
   padding-top: 20px;
 }
 
@@ -163,6 +164,32 @@
 .just-video iframe {
   width: 100%;
   height: 315px;
+}
+.Button{
+  background-color: #fff; 
+  border: none;
+  color: rgb(255, 0, 0);
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border: 3px solid #ff0000;
+  
+}
+.Button:hover {
+  background-color: #ff0000; 
+  color: white;
+}
+
+.link{
+  color: #000;
+}
+a:link {
+  color: rgba(0, 0, 0, 0.651)
 }
 
 /* responsive mode */
@@ -341,34 +368,34 @@
 
 /* CONTACT FORM */
 .contact-form {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-    url(/images/backForm.jpg) 100% 100% / cover no-repeat;
+  background: white;
+    /*url("../../images/contact_back.jpg");*/
   padding: 30px 10px;
 }
 
 .contact-form-center {
-  color: #e8f4dc;
+  color: #000;
 }
 
 .form-inputs-texts .inputs input,
 .form-area textarea {
   width: 100%;
   padding: 5px 5px;
-  border: 1px solid #e8f4dc;
+  border: 3px solid #0000;
   background: transparent;
   font-size: 20px;
-  color: #e8f4dc;
-  box-shadow: 0 0 2px 0 #e8f4dc;
-  color: #e8f4dc;
+  color: #000;
+  box-shadow: 0 0 4px 0 #000;
+  color: #000;
 }
 
 .form-inputs-texts,
 .inputs .name {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .form-texts {
-  margin: 30px 0;
+  margin: 10px 0;
 }
 
 .form-texts p:nth-of-type(1) {
@@ -380,17 +407,23 @@ form p {
 }
 
 .btnForm {
-  margin-top: 20px;
-  font-size: 18px;
-  padding: 10px;
-  width: 200px;
-  background: #92b960;
+  background-color: white; 
   border: none;
-  opacity: 1;
+  color: rgb(255, 0, 0);
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border: 3px solid #ff0000;
 }
 
 .btnForm:hover {
-  opacity: 0.8;
+  background-color: #ff0000; 
+  color: white;
 }
 
 /* responsive mode */
@@ -418,30 +451,33 @@ form p {
 
 @media screen and (min-width: 868px) {
   .contact-form {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
-      url(/images/backForm.jpg);
-    padding: 60px 10px;
+    background: white;
+     /* url(../../images/contact_back.jpg); */
+    padding: 10px 5px;
     background-position: center center;
-    background-repeat: no-repeat;
     background-size: 100%;
-    background-attachment: fixed;
   }
 }
+
 
 /* END OF CONTACT FORM  */
 
 /* footer */
+
+/*
 footer {
   padding: 30px 10px;
-  background: #353f48;
+  background: #000000;
 }
+
 
 footer ul {
   text-align: center;
 }
 
+
 footer ul li a {
-  color: lightgray;
+  color: white;
   margin: 5px 0;
   padding: 5px;
   display: inline-block;
@@ -451,16 +487,21 @@ footer ul li a:hover {
   color: white;
 }
 
+*/
+
 /* responsive mode */
+
+/*
+
 @media screen and (min-width: 664px) {
   footer ul {
-    display: flex;
     width: 90%;
     margin: 0 auto;
   }
 
+
   footer ul li a {
-    color: lightgray;
+    color: white;
     margin: 0px 5px;
     display: inline-block;
   }
@@ -471,5 +512,30 @@ footer ul li a:hover {
     padding: 60px 0;
   }
 }
-
+*/
 /* end of footer */
+
+
+.font-small {
+  color:black;
+  background-color:#eceff1;
+  position: relative;
+  align-items: center;
+  width: 100%;
+}
+
+.footer_social{
+  color: white;
+  background-color: #df080e;
+}
+
+.footer-copyright{
+  text-shadow: darkgray;
+  text-align: center;
+  padding: 1em;
+  background-color: #6c757d;
+}
+.copyright{
+  color: #000;
+  text-align: center;
+}

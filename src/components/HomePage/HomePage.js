@@ -18,10 +18,6 @@ export default function HomePage() {
             <Portfolio />
             <Services />
             <JustDefault />
-            <Twitter />
-            <WhoIs />
-            <Testimonials />
-            <ContactForm />
 
 
         </div>

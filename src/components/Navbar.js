@@ -80,7 +80,7 @@ const NavWrapper = styled.div`
     width: 35px;
     margin: 5px;
     padding: 2px;
-    background: #fff;
+    background: #000;
   }
 
   .logoBtn {
