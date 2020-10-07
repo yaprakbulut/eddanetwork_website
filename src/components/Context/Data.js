@@ -111,34 +111,39 @@ export const blogItems = [
   {
     id: 1,
     img: "images/decor1.jpg",
-    date: "30 march 2018",
-    title: "Innovation",
+    title: "SİGORTA SEKTÖRÜ",
     words:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore pariatur doloremque dolores dignissimos, ratione provident placeat cumque temporibus consectetur doloribus",
-    number1: "896",
-    number2: "5648",
+      "Sigorta Brokerliği şirketlerinin kullanabileceği Sigora Yönetim Sistemi",
   },
   {
     id: 2,
     img: "../../images/decor2.jpg",
-    date: "12 april 2017",
-    title: "New trends",
+    title: "OTEL-HASTANE İŞLETMELERİ",
     words:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore pariatur doloremque dolores dignissimos, ratione provident placeat cumque temporibus consectetur doloribus",
-    message: "fas fa-comment",
-    number1: "1896",
-    number2: "35648",
+      "Tüm yeraltı iletişim hattı kurulumu. Otel odası ve çağrı merkezi otomasyonu.",
   },
   {
     id: 3,
     img: "../../images/decor3.jpg",
-    date: "11 june 2016",
-    title: "Follow the future",
+    title: "YAYINEVLERİ",
     words:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore pariatur doloremque dolores dignissimos, ratione provident placeat cumque temporibus consectetur doloribus",
-    message: "fas fa-comment",
-    number1: "1236",
-    number2: "3648",
+      "Dizin oluşturma yazılımı. Kitap baskı maliyet yazılımı",
+  },
+
+  {
+    id: 4,
+    img: "../../images/decor3.jpg",
+    title: "BORA UZAKTAN EĞİTİM SİSTEMİ",
+    words:
+      "Senkron eğitim. Asenkron eğitim. Soru Bankası ve Sınav Sistemi",
+  },
+
+  {
+    id: 5,
+    img: "../../images/decor3.jpg",
+    title: "SIRAMATİK, KİOSK, ENFERMASYON EKRANI VE SAYISAL BİLGİ SUNUM EKRANI",
+    words:
+      "Yazılım ve donanım, teknik destek.",
   },
 ];
 
@@ -146,24 +151,30 @@ export const blogItems = [
 export const Interiors = [
   {
     id: 1,
-    name: "John Jones",
+    name: "SİGORTA SEKTÖRÜ",
     img: "images/interiors/interior1.png",
   },
   {
     id: 2,
-    name: "mika jack",
+    name: "OTEL-HASTANE İŞLETMELERİ",
     img: "images/interiors/interior2.png",
   },
   {
     id: 3,
-    name: "lara stone",
+    name: "YAYINEVLERİ",
     img: "images/interiors/interior3.png",
   },
   {
     id: 4,
-    name: "conor brad",
+    name: "BORA UZAKTAN EĞİTİM SİSTEMİ",
     img: "images/interiors/interior4.png",
   },
+  {
+    id: 5,
+    name: "SIRAMATİK, KİOSK, ENFERMASYON EKRANI VE SAYISAL BİLGİ SUNUM EKRANI",
+    img: "images/interiors/interior4.png",
+  },
+  
 ];
 
 // recent events
