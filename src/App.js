@@ -22,8 +22,8 @@ function App() {
 
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/blog" component={Blog} />
         <Route exact path="/biography" component={Biography} />
+        <Route exact path="/blog" component={Blog} />
         <Route exact path="/interiors" component={Interiors} />
         <Route exact path="/events" component={Events} />
         <Route exact path="/contact" component={Contact} />
