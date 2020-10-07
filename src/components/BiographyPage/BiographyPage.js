@@ -1,68 +1,52 @@
-import React from 'react';
-import Title from '../Title';
-import BackPerson from '../../images/man.png';
-import Bounce from 'react-reveal/Bounce';
-import './biographyPage.css';
-
-
-
+import React from "react";
+import Title from "../Title";
+import BackPerson from "../../images/man.png";
+import Bounce from "react-reveal/Bounce";
+import "./biographyPage.css";
 
 export default function BiographyPage() {
-    return (
-        <section className="biography">
-            <div className="inside-container">
-                <h4>Home decorator</h4>
-                <h1>John Doe</h1>
-                <div className="biography-links">
-                 <li>
-                    <a href="#">
-                     <p className="p1">HOMEPAGE</p>
-                     <p>BIOGRAPHY</p>
-                    </a>
-                        
-                </li>
+  return (
+    <section className="biography">
+      <div className="inner-container">
+        <h1>eddanetwork</h1>
 
-                <li>
-                    <a href="#">
-                     <p className="p1">PORTFOLIO</p>
-                     <p>MY ART WORDS</p>
-                    </a>
-                        
-                </li>
-
-                <li>
-                    <a href="#">
-                     <p className="p1">HOMEPAGE</p>
-                     <p>BE IN TOUCH</p>
-                    </a>
-                        
-                </li>
-
-                
-                <li>
-                    <a href="#">
-                     <p ><i className="fas fa-search"></i></p>
-                   
-                    </a>
-                        
-                </li>
-                </div>
-                <div className="person">
-                    <Bounce top duration={3000}>
-                    <div className="personImg">
-                        <img src={BackPerson} alt="img"/>
-                    </div>
-                    </Bounce>
-                   
-                    <div className="person-texts">
-                        <Title title="john doe" color="#fff" />
-                        <Bounce right duration={2000} cascade>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, rerum. Quis, maiores nobis! Perferendis fugit nobis, nisi minima porro exercitationem laboriosam et enim quia quisquam amet iusto praesentium ex sunt.</p>
-                        </Bounce>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-    )
+        <div className="person-texts">
+          <h4>BİZ KİMİZ?</h4>
+          <Bounce right duration={1000} cascade>
+            <p>
+              Gelişmiş altyapısı, deneyimli ekibi ile yazılım şirketi olarak
+              kurulan Eddanetwork sizlere en doğru, kaliteli ve sonuç odaklı
+              hizmet vermek için her zaman yanınızda. Eddanetwork, işletmenizin
+              geleceğe yönelik atacağı adımlarda en büyük yardımcınızdır.
+              Sektörde önemli projelerde imzası bulunan şirketimizin; oteller,
+              turizm organizasyonları, eğitim, hastaneler gibi sağlık ve eğlence
+              hizmetleri alanınlarında sürdürdüğü çalışmalara sürekli olarak
+              yenilik katarak ve bir adım daha ileriye giderek sürdürmekteyiz.
+            </p>
+          </Bounce>
+          <h4>MİSYONUMUZ</h4>
+          <Bounce right duration={1000} cascade>
+            <p>Ar-Ge faliyetleri ile teknolojik yenilikler yaratmak, </p>
+            <p>
+              Yenilikleri ülke ekonomisine katkı sağlayacak biçimde
+              ticarileştirmek,
+            </p>
+            <p>
+              Aynı zamanda kendi alanında güvenilir bir firma olmayı
+              hedeflemek. 
+            </p>
+          </Bounce>
+          <h4>VİZYONUMUZ</h4>
+          <Bounce right duration={1000} cascade>
+            <p>
+              Alanında uzman ve tecrübeli kadromuz ile yenilikçi, dürüst ve
+              memnuniyete önem veren bir firma olmak. Yapılan çalışmalarımızı
+              öngörülü , yüksek hassasiyetli ve her adımını kontrol ederek en
+              iyi sonuca ulaşmasını sağlamak amaçlarımızdandır. 
+            </p>
+          </Bounce>
+        </div>
+      </div>
+    </section>
+  );
 }
