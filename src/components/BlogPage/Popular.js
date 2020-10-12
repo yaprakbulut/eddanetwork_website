@@ -9,15 +9,15 @@ export default function Popular() {
         return(
             <section className="blog">
              <div className="inside-container">
-                 <Title title="Hizmetlerimiz" color="grey" />
+                 <Title title="Projelerimiz" color="red" />
     <div className="blog-center">
         {value.blogItems.map(item=>{
             return(
                 <div className="single-blog" key={item.id}>
                    <img src={item.img} alt="img"/> 
                    <div className="posts">
-            <p>{item.title}</p>
-            <p>{item.words}</p>
+                        <p>{item.title}</p>
+                        <p>{item.words}</p>
                    </div> 
                 </div>
             )
