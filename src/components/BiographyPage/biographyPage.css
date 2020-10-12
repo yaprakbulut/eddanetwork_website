@@ -3,7 +3,6 @@
   padding: 0;
   font-family: "Open Sans", sans-serif;
   box-sizing: border-box;
-  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -43,11 +42,16 @@
   .inner-container {
     padding: 80px;
   }
+  .about-section {
+    background-size: cover;
+    width: 100%;
+    padding: 100px 40px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
   .about-section {
-    background-size: 100%;
+    background-size: cover;
     width: 100%;
     padding: 100px 40px;
   }
