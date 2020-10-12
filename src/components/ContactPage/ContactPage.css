@@ -23,7 +23,6 @@
   margin-right: 10px;
 }
 
-<<<<<<< HEAD
 .map_div{
     margin-top: 10px;
 }
@@ -39,18 +38,6 @@
 .aboutContact-form{
     background:white;
     padding:15px 50px;
-=======
-.aboutContact-info .map {
-  margin-top: 20px;
-  flex: 0 0 calc(50%);
-  width: 100%;
-  position: absolute;
-}
-
-.aboutContact-form {
-  background: white;
-  padding: 15px 50px;
->>>>>>> e36645832fb00cb2b9f9b6c4e74e8c44c740850a
 }
 
 .aboutContact-form .inputs {
