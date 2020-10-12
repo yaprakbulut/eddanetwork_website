@@ -37,16 +37,15 @@ export default function AboutProduct() {
               Pınarbaşı Mh. Hürriyet Cd. Ar-Ge 2 Binası No:3A/23
               Konyaaltı/Antalya
             </p>
-            <Iframe
-              url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3190.8248652250486!2d30.653164315574756!3d36.89453777008269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c391cd6e38486d%3A0xfbd4e14587332eeb!2sAkdeniz%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1570793874135!5m2!1str!2str"
-              paddingTop="10px"
-              width="450px"
-              height="300px"
-              id="myId"
-              className="myClassname"
-              display="initial"
-              position="relative"
-            />
+              <Iframe
+                url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6381.532646316366!2d30.640719224242588!3d36.89593809987882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3911e201857fd%3A0xd2a73886d2140f56!2sEddaNetwork!5e0!3m2!1str!2str!4v1602492749001!5m2!1str!2str"
+                width="450px"
+                height="300px"
+                id="myId"
+                className="map"
+                display="initial"
+                position="relative"
+              />
           </div>
 
           <div className="aboutContact-form">
