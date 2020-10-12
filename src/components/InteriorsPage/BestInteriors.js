@@ -19,12 +19,14 @@ export default function BestInteriors() {
                   <div className="card">
                     <img src={BackInterior2} style={{ width: "100%" }}></img>
                     <div className="container">
-                      <h2>Fırat KOCAOĞLU</h2>
+                      <h2 className="isim">Fırat KOCAOĞLU</h2>
                       <p className="title">CEO & Founder</p>
-
+                      <p>
+                        Text.
+                      </p>
                       <p>firat@eddanetwork.com</p>
                       <p>
-                        <button className="button">Contact</button>
+                        <button className="button">İletişim</button>
                       </p>
                     </div>
                   </div>
@@ -38,14 +40,14 @@ export default function BestInteriors() {
                       style={{ width: "100%" }}
                     ></img>
                     <div className="container">
-                      <h2>Mike Ross</h2>
-                      <p className="title">Art Director</p>
+                      <h2 className="isim">İbrahim ZAĞLI</h2>
+                      <p className="title">CTO</p>
                       <p>
-                        Some text that describes me lorem ipsum ipsum lorem.
+                        Text.
                       </p>
-                      <p>example@example.com</p>
+                      <p>zagli@eddanetwork.com</p>
                       <p>
-                        <button className="button">Contact</button>
+                        <button className="button">İletişim</button>
                       </p>
                     </div>
                   </div>
@@ -59,14 +61,14 @@ export default function BestInteriors() {
                       style={{ width: "100%" }}
                     ></img>
                     <div className="container">
-                      <h2>John Doe</h2>
-                      <p className="title">Designer</p>
+                      <h2 className="isim">Temel EKMEN</h2>
+                      <p className="title">Projects Manager</p>
                       <p>
-                        Some text that describes me lorem ipsum ipsum lorem.
+                        Text.
                       </p>
-                      <p>example@example.com</p>
+                      <p>temel.ekmen@eddanetwork.com</p>
                       <p>
-                        <button className="button">Contact</button>
+                        <button className="button">İletişim</button>
                       </p>
                     </div>
                   </div>
