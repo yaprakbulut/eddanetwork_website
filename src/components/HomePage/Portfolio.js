@@ -12,7 +12,7 @@ export default function Portfolio() {
             <div className="inside-container">
               <div className="portfolio-center">
                 <div className="single-portfolio">
-                  <Title title="BİZ KİMİZ?" color="#FF0012" />
+                  <Title title="BİZ KİMİZ?" color="#df080e" />
                   <p>
                     Biz bir Ar-Ge şirketiyiz. Zaten yazılmış olan yazılımlar
                     bazen işinizi görmez. O zaman işletmenize özel yazılım veya
@@ -23,7 +23,7 @@ export default function Portfolio() {
                 </div>
 
                 <div className="single-portfolio">
-                  <Title title="MİSYONUMUZ" color="#FF0012" />
+                  <Title title="MİSYONUMUZ" color="#df080e" />
                   <p>
                     İşi öğreniriz, yazılımı ve/veya otomasyonu birlikte
                     geliştiririz ve kullanmanızı sağlarız.
@@ -31,7 +31,7 @@ export default function Portfolio() {
                 </div>
 
                 <div className="single-portfolio">
-                  <Title title="VİZYONUMUZ" color="#FF0012" />
+                  <Title title="VİZYONUMUZ" color="#df080e" />
                   <p>
                     Yazılım ve otomasyon, bir işletmeye direkt veya dolaylı
                     yoldan para kazandırır. Ya personelin verimi arttırarak

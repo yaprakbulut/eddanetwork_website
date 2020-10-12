@@ -12,7 +12,7 @@ export default function BiographyPage() {
           <div className="text">
             <h4>BİZ KİMİZ ?</h4>
             <Bounce right duration={1000} cascade>
-              <p>
+              <p className="text_p">
                 Gelişmiş altyapısı, deneyimli ekibi ile yazılım şirketi olarak
                 kurulan Eddanetwork sizlere en doğru, kaliteli ve sonuç odaklı
                 hizmet vermek için her zaman yanınızda. Eddanetwork,
@@ -26,7 +26,7 @@ export default function BiographyPage() {
             </Bounce>
             <h4>MİSYONUMUZ</h4>
             <Bounce right duration={1000} cascade>
-              <p>
+              <p className="text_p">
                 Ar-Ge faliyetleri ile teknolojik yenilikler yaratmak.
                 Yenilikleri ülke ekonomisine katkı sağlayacak biçimde
                 ticarileştirmek. Aynı zamanda kendi alanında güvenilir bir firma
@@ -35,7 +35,7 @@ export default function BiographyPage() {
             </Bounce>
             <h4>VİZYONUMUZ</h4>
             <Bounce right duration={1000} cascade>
-              <p>
+              <p className="text_p">
                 Alanında uzman ve tecrübeli kadromuz ile yenilikçi, dürüst ve
                 memnuniyete önem veren bir firma olmak. Yapılan çalışmalarımızı
                 öngörülü , yüksek hassasiyetli ve her adımını kontrol ederek en

@@ -11,7 +11,7 @@ export default function Footer() {
         <div class="container">
           <div class="row py-4 d-flex align-items-center">
             <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-              <h6 class="mb-0">Get connected with us on social networks!</h6>
+              <h6 class="mb-0">Sosyal Medya Hesaplarımızı Takip Edin!</h6>
             </div>
             <div class="col-md-6 col-lg-7 text-center text-md-right">
               <div className="icon">
@@ -40,12 +40,14 @@ export default function Footer() {
         <div class="row mt-3">
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <h6 class="text-uppercase font-weight-bold">
-              FIRAT KOCAOGLU EDDANETWORK
+              FIRAT KOCAOĞLU EDDANETWORK
             </h6>
             <p>Yazılım ve otomasyon şirketidir.</p>
+            <img className="footer_img"
+            src="https://www.tgbd.org.tr/content/upload/companies/antalya-teknokentten-b910-20181220140353.png" width="100" height="50"></img>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase font-weight-bold">URUNLERIMIZ</h6>
+            <h6 class="text-uppercase font-weight-bold">ÜRÜNLERIMIZ</h6>
             <p>
               <a className="footer-link" href="https://bora.eddanetwork.com/">
                 BORA Uzaktan Eğitim

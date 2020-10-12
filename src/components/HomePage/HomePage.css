@@ -169,7 +169,7 @@
 .Button {
   background-color: #fff;
   border: none;
-  color: rgb(255, 0, 0);
+  color: #df080e;
   padding: 15px;
   text-align: center;
   text-decoration: none;
@@ -178,10 +178,10 @@
   margin: 4px 2px;
   cursor: pointer;
   transition-duration: 0.4s;
-  border: 3px solid #ff0000;
+  border: 3px solid #df080e;
 }
 .Button:hover {
-  background-color: #ff0000;
+  background-color:#df080e;
   color: white;
 }
 
@@ -409,7 +409,7 @@ form p {
 .btnForm {
   background-color: white;
   border: none;
-  color: rgb(255, 0, 0);
+  color:#df080e;
   padding: 15px;
   text-align: center;
   text-decoration: none;
@@ -418,11 +418,11 @@ form p {
   margin: 4px 2px;
   cursor: pointer;
   transition-duration: 0.4s;
-  border: 3px solid #ff0000;
+  border: 3px solid #df080e;
 }
 
 .btnForm:hover {
-  background-color: #ff0000;
+  background-color: #df080e;
   color: white;
 }
 
@@ -541,11 +541,15 @@ footer ul li a:hover {
 }
 .footer-link:hover {
   font-weight: normal;
-  color: red;
+  color: #df080e;
 }
 .icon .fab {
   color: white;
 }
 .icon .fab:hover {
   color: rgba(206, 204, 204, 1);
+}
+
+.footer_img{
+  vertical-align: middle;
 }

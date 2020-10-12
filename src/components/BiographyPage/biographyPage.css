@@ -26,8 +26,8 @@
 
 .inner-container h4 {
   color: #df080e;
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 27px;
+  font-weight: normal;
 }
 
 .text {
@@ -37,6 +37,12 @@
   text-align: justify;
   margin-bottom: 40px;
 }
+
+.text_p{
+  font-size: medium;
+  font-weight: lighter;
+}
+
 
 @media screen and (max-width: 1200px) {
   .inner-container {
