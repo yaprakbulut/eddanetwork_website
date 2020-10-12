@@ -34,6 +34,12 @@
     width:100%;
     position:absolute;
 }
+.aboutContact-info .map_right{
+    margin-top: 20px;
+    flex:0 0 calc(50%);
+    width:100%;
+    position:absolute;
+}
 
 .aboutContact-form{
     background:white;
@@ -112,6 +118,15 @@ textarea {
     width:45%;
     position:absolute;
 
+}
+
+.adres_div{
+    margin-top: 5px;
+    width: 100%;
+}
+.adres{
+    width: 40%;
+    display: table-cell;
 }
 
 
