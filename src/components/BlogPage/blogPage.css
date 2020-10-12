@@ -3,15 +3,18 @@
 }
 
 .single-blog{
-    box-shadow: 0px 2px 4px 1px lightgray;
+    box-shadow: 0px 4px 6px 2px lightgray;
     width: 100%;
     margin:40px 0;
+    background-repeat: no-repeat;
+    display: flex;
 }
 
 .single-blog img{
-    width: 100%;
+    width: 50%;
     display: block;
-    height: 350px;
+    height: 300px;
+    opacity: 0.8;
 }
 
 .posts p{
@@ -52,7 +55,7 @@
  }
 
  .single-blog{
-     flex:0 0 calc(50% - 20px);
+     flex:0 0 calc(100% - 20px);
      margin:20px 0;
  }
 
@@ -64,7 +67,7 @@
    
    
     .single-blog{
-        flex:0 0 calc(33% - 20px);
+        flex:0 0 calc(100% - 20px);
         margin:20px 0;
     }
 
