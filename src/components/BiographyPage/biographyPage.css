@@ -1,60 +1,44 @@
 .biography {
-  min-height: 80vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
-    url(/images/d1.jpg) 100% / cover no-repeat;
-  padding: 30px 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
 }
+
+.about-section {
+  background: url(/images/d1.jpg) left/cover fixed no-repeat;
+  background-size: contain;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
 .inner-container {
   width: 55%;
   float: right;
   background-color: #fdfdfd;
-  padding: 50px;
+  padding: 70px;
 }
 
-.inner-container h1 {
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-weight: normal;
-}
-
-.biography h4 {
+.inner-container h4 {
   color: #df080e;
   font-size: 30px;
-  font-weight: normal;
+  font-weight: 500;
 }
 
-.biography h1 {
-  color: #000;
-  font-size: 40px;
-  text-transform: uppercase;
-  letter-spacing: 0.5rem;
-}
-
-.person-texts {
-  font-size: medium;
-  color: rgba(0, 0, 0, 0.767);
+.text {
+  font-size: 20px;
+  color: #332f2f;
   line-height: 20px;
   text-align: justify;
   margin-bottom: 40px;
 }
-.skills {
-  display: flex;
-  justify-content: space-between;
-  font-weight: 700;
-  font-size: 13px;
-}
 
-@media screen and (min-width: 868px) {
-  .biography {
-    min-height: 100vh;
-    padding: 60px 0px;
-    background: url(/images/d1.jpg) left/cover fixed no-repeat;
-
-    background-size: contain;
-    background-color: #fdfdfd;
-    overflow: hidden;
-  }
-}
 @media screen and (max-width: 1200px) {
   .inner-container {
     padding: 80px;
@@ -64,6 +48,7 @@
 @media screen and (max-width: 1000px) {
   .about-section {
     background-size: 100%;
+    width: 100%;
     padding: 100px 40px;
   }
   .inner-container {
