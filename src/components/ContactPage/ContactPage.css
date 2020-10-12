@@ -1,30 +1,29 @@
-.aboutContact{
-    padding:30px 10px;
-    background:white;
-
+.aboutContact {
+  padding: 30px 10px;
+  background: white;
 }
 
 .aboutContact-info,
-.aboutContact-form{
-margin:30px 0;
+.aboutContact-form {
+  margin: 30px 0;
 }
 
-.aboutContact-info{
-    padding:10px;
-    color:gray;
+.aboutContact-info {
+  padding: 10px;
+  color: gray;
 }
 
-
-.aboutContact-info p{
-    margin:0 0px;
-    font-style: italic;
-    font-size: 20px;
+.aboutContact-info p {
+  margin: 0 0px;
+  font-style: italic;
+  font-size: 20px;
 }
 
-.aboutContact-info .fas{
-   margin-right: 10px;
+.aboutContact-info .fas {
+  margin-right: 10px;
 }
 
+<<<<<<< HEAD
 .map_div{
     margin-top: 10px;
 }
@@ -40,67 +39,79 @@ margin:30px 0;
 .aboutContact-form{
     background:white;
     padding:15px 50px;
+=======
+.aboutContact-info .map {
+  margin-top: 20px;
+  flex: 0 0 calc(50%);
+  width: 100%;
+  position: absolute;
 }
 
-.aboutContact-form .inputs{
-    margin-bottom: 10px;
-    color:gray;
+.aboutContact-form {
+  background: white;
+  padding: 15px 50px;
+>>>>>>> e36645832fb00cb2b9f9b6c4e74e8c44c740850a
 }
 
-.aboutContact-form textarea{
-    margin-bottom: 20px;
+.aboutContact-form .inputs {
+  margin-bottom: 10px;
+  color: gray;
 }
 
-.textarea{
-    color:gray;
+.aboutContact-form textarea {
+  margin-bottom: 20px;
 }
 
-input,textarea{
-    width: 100%;
-    padding:5px;
-    border:none;
-    background:white;
-    border: double;
-    color:gray;
-    font-size: 20px;
+.textarea {
+  color: gray;
 }
 
-.aboutContact-form .btn{
-    background-color: #fff;
-    border: none;
-    color: rgb(255, 0, 0);
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-    border: 3px solid #ff0000;
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  background: white;
+  border: double;
+  color: gray;
+  font-size: 20px;
 }
 
-.aboutContact-form .btn:hover{
-    background-color: #ff0000;
-    color: white;
+.aboutContact-form .btn {
+  background-color: #fff;
+  border: none;
+  color: rgb(255, 0, 0);
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border: 3px solid #ff0000;
 }
 
+.aboutContact-form .btn:hover {
+  background-color: #ff0000;
+  color: white;
+}
 
-@media screen and (min-width:664px){
-  .aboutContact-center{
-      display: flex;
-      flex-wrap: wrap;
+@media screen and (min-width: 664px) {
+  .aboutContact-center {
+    display: flex;
+    flex-wrap: wrap;
   }
 
  
 
   .aboutContact-info,
-  .aboutContact-form{
-      margin:20px 0;
-      flex:0 0 calc(50%);
+  .aboutContact-form {
+    margin: 20px 0;
+    flex: 0 0 calc(50%);
   }
 
-  .aboutContact-info .map{
+  .aboutContact-info .map {
     margin-top: 20px;
     flex:0 0 calc(50%);
     width:45%;
@@ -120,4 +131,3 @@ input,textarea{
 
  
 }
-
