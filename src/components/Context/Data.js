@@ -17,11 +17,6 @@ export const Links = [
     path: "/blog",
   },
   {
-    id: 4,
-    link: "Ekibimiz",
-    path: "/interiors",
-  },
-  {
     id: 6,
     link: "İletişim",
     path: "/contact",

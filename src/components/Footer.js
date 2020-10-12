@@ -39,52 +39,42 @@ export default function Footer() {
       <div class="container text-center text-md-left mt-5">
         <div class="row mt-3">
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <h6 class="text-uppercase font-weight-bold">EDDANETWORK</h6>
+            <h6 class="text-uppercase font-weight-bold">FIRAT KOCAOGLU EDDANETWORK</h6>
             <p>Yazılım ve otomasyon şirketidir.</p>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase font-weight-bold">Products</h6>
+            <h6 class="text-uppercase font-weight-bold">URUNLERIMIZ</h6>
             <p>
-              <a className="footer-link" href="#!">
-                MDBootstrap
+              <a className="footer-link" href="https://bora.eddanetwork.com/">
+                BORA Uzaktan Eğitim
               </a>
             </p>
             <p>
-              <a className="footer-link" href="#!">
-                MDWordPress
+              <a className="footer-link" href="http://cyberella.net/">
+                Cyberella 
               </a>
             </p>
             <p>
-              <a className="footer-link" href="#!">
-                BrandFlow
-              </a>
-            </p>
-            <p>
-              <a className="footer-link" href="#!">
-                Bootstrap Angular
+              <a className="footer-link" href="http://eddacicek.com/">
+                Eddançiçek Evi
               </a>
             </p>
           </div>
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+            <h6 class="text-uppercase font-weight-bold">HAKKIMIZDA</h6>
             <p>
-              <a className="footer-link" href="#!">
-                Your Account
+              <a className="footer-link" href="/biography">
+                Biz Kimiz
               </a>
             </p>
             <p>
-              <a className="footer-link" href="#!">
-                Become an Affiliate
+              <a className="footer-link" href="/interiors">
+                Ekimiz
               </a>
             </p>
             <p>
-              <a className="footer-link" href="#!">
-                Shipping Rates
-              </a>
-            </p>
-            <p>
-              <a className="footer-link" href="#!">
-                Help
+              <a className="footer-link" href="/blog">
+                Projelerimiz
               </a>
             </p>
           </div>
