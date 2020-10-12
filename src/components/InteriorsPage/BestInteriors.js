@@ -3,6 +3,7 @@ import Bounce from "react-reveal";
 import Title from "../Title";
 import BackInterior from "../../images/decor2.jpg";
 import BackInterior2 from "../../images/firat.jpeg";
+import BackInterior3 from "../../images/ibrahim.jpeg";
 import { ProductConsumer } from "../Context/Context";
 
 export default function BestInteriors() {
@@ -12,7 +13,7 @@ export default function BestInteriors() {
         return (
           <section className="interiors">
             <div className="inside-container">
-              <Title title="best interiors" color="red" />
+              <Title title="ekibimiz" color="red" />
 
               <div className="row">
                 <div className="column">
@@ -21,9 +22,6 @@ export default function BestInteriors() {
                     <div className="container">
                       <h2 className="isim">Fırat KOCAOĞLU</h2>
                       <p className="title">CEO & Founder</p>
-                      <p>
-                        Text.
-                      </p>
                       <p>firat@eddanetwork.com</p>
                       <p>
                         <button className="button">İletişim</button>
@@ -35,16 +33,13 @@ export default function BestInteriors() {
                 <div className="column">
                   <div className="card">
                     <img
-                      src="/w3images/team2.jpg"
-                      alt="Mike"
+                      src={BackInterior3}
+                      alt="İbrahim Zağlı"
                       style={{ width: "100%" }}
                     ></img>
                     <div className="container">
                       <h2 className="isim">İbrahim ZAĞLI</h2>
                       <p className="title">CTO</p>
-                      <p>
-                        Text.
-                      </p>
                       <p>zagli@eddanetwork.com</p>
                       <p>
                         <button className="button">İletişim</button>
@@ -57,15 +52,12 @@ export default function BestInteriors() {
                   <div className="card">
                     <img
                       src="/w3images/team3.jpg"
-                      alt="John"
+                      alt="Temel Ekmen"
                       style={{ width: "100%" }}
                     ></img>
                     <div className="container">
                       <h2 className="isim">Temel EKMEN</h2>
                       <p className="title">Projects Manager</p>
-                      <p>
-                        Text.
-                      </p>
                       <p>temel.ekmen@eddanetwork.com</p>
                       <p>
                         <button className="button">İletişim</button>

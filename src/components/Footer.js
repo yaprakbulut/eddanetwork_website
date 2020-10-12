@@ -39,7 +39,9 @@ export default function Footer() {
       <div class="container text-center text-md-left mt-5">
         <div class="row mt-3">
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-            <h6 class="text-uppercase font-weight-bold">FIRAT KOCAOGLU EDDANETWORK</h6>
+            <h6 class="text-uppercase font-weight-bold">
+              FIRAT KOCAOGLU EDDANETWORK
+            </h6>
             <p>Yazılım ve otomasyon şirketidir.</p>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
@@ -51,12 +53,12 @@ export default function Footer() {
             </p>
             <p>
               <a className="footer-link" href="http://cyberella.net/">
-                Cyberella 
+                Cyberella
               </a>
             </p>
             <p>
               <a className="footer-link" href="http://eddacicek.com/">
-                Eddançiçek Evi
+                Eddaçiçek Evi
               </a>
             </p>
           </div>
@@ -69,7 +71,7 @@ export default function Footer() {
             </p>
             <p>
               <a className="footer-link" href="/interiors">
-                Ekimiz
+                Ekibimiz
               </a>
             </p>
             <p>
