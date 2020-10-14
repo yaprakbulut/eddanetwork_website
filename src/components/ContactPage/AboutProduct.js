@@ -1,8 +1,22 @@
 import React from "react";
 import Title from "../Title";
 import Iframe from "react-iframe";
+import emailjs from 'emailjs-com';
 
 export default function AboutProduct() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('edda', 'template_apcqg8r', e.target, 'user_yMWJZ8ptTHFbUXAnll3di')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  }
+
   return (
     <div className="aboutContact">
       <div className="inside-container">
@@ -71,26 +85,25 @@ export default function AboutProduct() {
           </div>
 
           <div className="aboutContact-form">
-            <form>
+            <form onSubmit={sendEmail}>
               <div className="inputs">
                 <label htmlFor="name">İsim</label>
                 <br />
-                <input type="text" />
+                <input type="text" name="name" />
               </div>
 
               <div className="inputs">
                 <label htmlFor="name">Mail</label>
                 <br />
-                <input type="email" />
+                <input type="email" name="email" />
               </div>
               <div className="textarea">
                 <label htmlFor="message">Mesaj</label>
-                <textarea name="" id="" cols="30" rows="5"></textarea>
+                <textarea name="message" id="" cols="30" rows="5"></textarea>
               </div>
 
-              <button type="button" className="btn">
-                Gönder
-              </button>
+              <input type="submit" value="Gönder">
+              </input>
             </form>
           </div>
         </div>
