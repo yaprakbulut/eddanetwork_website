@@ -3,7 +3,7 @@ import Bounce from "react-reveal";
 import Title from "../Title";
 import BackInterior from "../../images/decor2.jpg";
 import BackInterior2 from "../../images/firat.jpeg";
-import BackInterior3 from "../../images/ibrahim.jpeg";
+import BackInterior3 from "../../images/ibrahim1.jpeg";
 import { ProductConsumer } from "../Context/Context";
 
 export default function BestInteriors() {
