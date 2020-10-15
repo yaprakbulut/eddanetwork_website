@@ -13,7 +13,7 @@ export default function BestInteriors() {
         return (
           <section className="interiors">
             <div className="inside-container">
-              <Title title="ekibimiz" color="red" />
+              <Title title="ekibimiz" color="#df080e" />
 
               <div className="row">
                 <div className="column">

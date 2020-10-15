@@ -19,12 +19,12 @@ export default function Services() {
                   return (
                     <CardDeck>
                       <Card
-                        border="danger"
                         style={{
                           width: "15rem",
                           borderWidth: "0.3rem",
                           borderRadius: "2rem",
                           marginLeft: "2px",
+                          borderColor: "#df080e",
                         }}
                         text="dark"
                         className="text-center p-3"
