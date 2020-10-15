@@ -9,7 +9,7 @@ export default function JustDefault() {
     return (
         <div className="just-default">
            <div className="inside-container">
-               <Title title="BORA Uzaktan Eğitim" color="#FF0012" />
+               <Title title="BORA Uzaktan Eğitim" color="#df080e" />
 
                <div className="just-default-center">
                    <div className="just-texts">

@@ -115,7 +115,7 @@ const NavWrapper = styled.div`
   }
 
   .links li a:hover {
-    color: red;
+    color: #df080e;
     display: block;
     padding: 10px 25px;
     border-bottom: 1px solid #049fe1;

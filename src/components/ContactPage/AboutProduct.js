@@ -1,8 +1,22 @@
 import React from "react";
 import Title from "../Title";
 import Iframe from "react-iframe";
+import emailjs from 'emailjs-com';
 
 export default function AboutProduct() {
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('edda', 'template_apcqg8r', e.target, 'user_yMWJZ8ptTHFbUXAnll3di')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  }
+
   return (
     <div className="aboutContact">
       <div className="inside-container">
@@ -52,7 +66,7 @@ export default function AboutProduct() {
             <Iframe
               url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6381.532646316366!2d30.640719224242588!3d36.89593809987882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3911e201857fd%3A0xd2a73886d2140f56!2sEddaNetwork!5e0!3m2!1str!2str!4v1602492749001!5m2!1str!2str"
               width="450px"
-              height="250px"
+              height="200px"
               id="myId"
               className="map"
               display="initial"
@@ -62,7 +76,7 @@ export default function AboutProduct() {
             <Iframe
               url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3012.8529798193767!2d28.8285891151549!3d40.96279947930547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa31e7e2de2bd%3A0x24f2293bfbf51792!2zWWXFn2lsa8O2eSwgRXJndXZhbiBTay4gTm86MywgMzQxNDkgQmFrxLFya8O2eS_EsHN0YW5idWw!5e0!3m2!1str!2str!4v1602498261688!5m2!1str!2str"
               width="450px"
-              height="250px"
+              height="200px"
               id="myId"
               className="map_right"
               display="initial"
@@ -71,26 +85,25 @@ export default function AboutProduct() {
           </div>
 
           <div className="aboutContact-form">
-            <form>
+            <form onSubmit={sendEmail}>
               <div className="inputs">
                 <label htmlFor="name">İsim</label>
                 <br />
-                <input type="text" />
+                <input type="text" name="name" />
               </div>
 
               <div className="inputs">
                 <label htmlFor="name">Mail</label>
                 <br />
-                <input type="email" />
+                <input type="email" name="email" />
               </div>
               <div className="textarea">
                 <label htmlFor="message">Mesaj</label>
-                <textarea name="" id="" cols="30" rows="5"></textarea>
+                <textarea name="message" id="" cols="30" rows="5"></textarea>
               </div>
 
-              <button type="button" className="btn">
-                Gönder
-              </button>
+              <input className="submit" type="submit" value="Gönder">
+              </input>
             </form>
           </div>
         </div>
