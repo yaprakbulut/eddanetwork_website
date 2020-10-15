@@ -102,7 +102,7 @@ export default function AboutProduct() {
                 <textarea name="message" id="" cols="30" rows="5"></textarea>
               </div>
 
-              <input type="submit" value="Gönder">
+              <input className="submit" type="submit" value="Gönder">
               </input>
             </form>
           </div>
