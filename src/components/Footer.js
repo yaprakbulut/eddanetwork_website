@@ -71,11 +71,7 @@ export default function Footer() {
                 Biz Kimiz
               </a>
             </p>
-            <p>
-              <a className="footer-link" href="/interiors">
-                Ekibimiz
-              </a>
-            </p>
+            
             <p>
               <a className="footer-link" href="/blog">
                 Projelerimiz

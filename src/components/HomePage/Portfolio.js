@@ -12,7 +12,7 @@ export default function Portfolio() {
             <div className="inside-container">
               <div className="portfolio-center">
                 <div className="single-portfolio">
-                  <Title title="BİZ KİMİZ?" color="#df080e" />
+                  <Title title="BİZ KİMİZ?" color="#df080e" fontSize="0.5rem"/>
                   <p>
                     Biz bir Ar-Ge şirketiyiz. Zaten yazılmış olan yazılımlar
                     bazen işinizi görmez. O zaman işletmenize özel yazılım veya

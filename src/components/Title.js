@@ -20,13 +20,16 @@ const TitleWrapper = styled.div`
  .h2Title{
      font-weight:400;
      text-transform:uppercase;
+     font-family: "Lucida Calligraphy";   
  }
 
  .underline{
      width:40px;
      border:1px solid;
  }
-
+ .h2, h2 {
+    font-size: 1.7rem;
+}
 
 
 `

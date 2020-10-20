@@ -10,7 +10,7 @@ export default function BiographyPage() {
       <div class="about-section">
         <div className="inner-container">
           <div className="text">
-            <h4>BİZ KİMİZ ?</h4>
+          <Title title="BİZ KİMİZ?" color="#df080e" size="1rem" />
             <Bounce right duration={1000} cascade>
               <p className="text_p">
                 Gelişmiş altyapısı, deneyimli ekibi ile yazılım şirketi olarak
@@ -24,7 +24,7 @@ export default function BiographyPage() {
                 adım daha ileriye giderek sürdürmekteyiz.
               </p>
             </Bounce>
-            <h4>MİSYONUMUZ</h4>
+            <Title title="MİSYONUMUZ" color="#df080e" />
             <Bounce right duration={1000} cascade>
               <p className="text_p">
                 Ar-Ge faliyetleri ile teknolojik yenilikler yaratmak.
@@ -33,7 +33,7 @@ export default function BiographyPage() {
                 olmayı hedeflemek. 
               </p>
             </Bounce>
-            <h4>VİZYONUMUZ</h4>
+            <Title title="VİZYONUMUZ" color="#df080e" />
             <Bounce right duration={1000} cascade>
               <p className="text_p">
                 Alanında uzman ve tecrübeli kadromuz ile yenilikçi, dürüst ve
