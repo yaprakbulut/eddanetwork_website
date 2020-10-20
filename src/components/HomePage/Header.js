@@ -1,7 +1,9 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
 import styled from "styled-components";
-import Image from "../../images/image1.png";
+import Image from "../../images/Untitled-2.png";
+import Image2 from "../../images/Untitled-3.png";
+import Image3 from "../../images/Untitled-4.png";
 import SwiftSlider from "react-swift-slider";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
@@ -17,14 +19,14 @@ export default function Header() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://media.mfbproject.co.za/repos/2017_alfa_romeo_stelvioquadrifoglio_official_09.jpg"
-              alt="Third slide"
+              src={Image2}
+              alt="Second slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="https://media.mfbproject.co.za/repos/ARWP_Infra_Desk_1920_1080_Quad.png"
+              src={Image3}
               alt="Third slide"
             />
           </Carousel.Item>

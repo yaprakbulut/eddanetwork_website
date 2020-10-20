@@ -13,7 +13,7 @@ export default function Services() {
         return (
           <section className="services">
             <div className="inside-container">
-              <Title title="HİZMETLERİMİZ" color="#df080e" />
+              <Title title="Hizmetlerimiz" color="#df080e" />
               <div className="services-center">
                 {services.map((service) => {
                   return (

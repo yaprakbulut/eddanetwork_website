@@ -19,8 +19,8 @@ const TitleWrapper = styled.div`
  margin-bottom:10px;
  .h2Title{
      font-weight:400;
-     text-transform:uppercase;
-     font-family: "Lucida Calligraphy";   
+     text-transform:lowercase;
+     font-family: "Lucida Handwriting";   
  }
 
  .underline{
