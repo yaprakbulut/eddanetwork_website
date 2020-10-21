@@ -9,12 +9,12 @@ export const Links = [
     id: 2,
     link: "Hakkımızda",
 
-    path: "/biography",
+    path: "/about",
   },
   {
     id: 3,
     link: "Projelerimiz",
-    path: "/blog",
+    path: "/projects",
   },
   {
     id: 6,

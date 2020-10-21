@@ -67,13 +67,13 @@ export default function Footer() {
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <h6 class="text-uppercase font-weight-bold">HAKKIMIZDA</h6>
             <p>
-              <a className="footer-link" href="/biography">
+              <a className="footer-link" href="/about">
                 Biz Kimiz
               </a>
             </p>
             
             <p>
-              <a className="footer-link" href="/blog">
+              <a className="footer-link" href="/projects">
                 Projelerimiz
               </a>
             </p>

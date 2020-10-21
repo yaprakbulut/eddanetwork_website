@@ -1,6 +1,5 @@
 import React from 'react';
 import Title from '../Title';
-import Image from "../../images/contact_back.jpg";
 
 export default function ContactForm() {
     return (

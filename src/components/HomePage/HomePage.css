@@ -181,7 +181,7 @@
   border: 3px solid #df080e;
 }
 .Button:hover {
-  background-color:#df080e;
+  background-color: #df080e;
   color: white;
 }
 
@@ -409,7 +409,7 @@ form p {
 .btnForm {
   background-color: white;
   border: none;
-  color:#df080e;
+  color: #df080e;
   padding: 15px;
   text-align: center;
   text-decoration: none;
@@ -550,6 +550,6 @@ footer ul li a:hover {
   color: rgba(206, 204, 204, 1);
 }
 
-.footer_img{
+.footer_img {
   vertical-align: middle;
 }

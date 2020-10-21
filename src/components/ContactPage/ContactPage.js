@@ -1,11 +1,11 @@
 import React from 'react';
 import './ContactPage.css';
-import AboutProduct from './AboutProduct';
+import AboutContact from './AboutContact';
 
 export default function ContactPage() {
     return (
         <React.Fragment>
-            <AboutProduct />
+            <AboutContact />
         </React.Fragment>
     )
 }

@@ -1,9 +1,7 @@
 import React from "react";
 import Home from "./Pages/Home";
-import Blog from "./Pages/Blog";
-import Biography from "./Pages/Biography";
-import Interiors from "./Pages/Interiors";
-import Events from "./Pages/Events";
+import Projects from "./Pages/Projects";
+import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Inspirations from "./Pages/Inspirations";
 import Default from "./Pages/Default";
@@ -22,10 +20,8 @@ function App() {
 
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/biography" component={Biography} />
-        <Route exact path="/blog" component={Blog} />
-        <Route exact path="/interiors" component={Interiors} />
-        <Route exact path="/events" component={Events} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/inspirations" component={Inspirations} />
         <Route component={Default} />
