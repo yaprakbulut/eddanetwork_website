@@ -10,11 +10,17 @@
   display: flex;
 }
 
+
 .single-blog img {
   width: 50%;
-  display: block;
+  display: none;
   height: 300px;
   opacity: 0.8;
+}
+
+.single-blog .title{
+  color: black;
+  font-weight: 500;
 }
 
 .posts p {
@@ -57,11 +63,24 @@
   .single-blog {
     flex: 0 0 calc(100% - 20px);
     margin: 20px 0;
+    height: 200px;
   }
 
   .single-blog {
     flex: 0 0 calc(50% - 20px);
     margin: 20px 0;
+  }
+  .single-blog img {
+    width: 50%;
+    display: block;
+    height: 200px;
+    opacity: 0.8;
+  }
+  .single-blog .title{
+    color: black;
+  }
+  .single-blog .words{
+    display: none;
   }
 }
 
@@ -75,10 +94,17 @@
     .single-blog {
       flex: 0 0 calc(100% - 20px);
       margin: 20px 0;
+      height: 300px;
     }
 
     .single-blog img {
       height: 300px;
+    }
+    .single-blog .words{
+      display: block;
+    }
+    .single-blog .title{
+      color: black;
     }
   }
 }

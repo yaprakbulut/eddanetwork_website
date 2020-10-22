@@ -16,8 +16,8 @@ export default function Projects() {
                 <div className="single-blog" key={item.id}>
                    <img src={item.img} alt="img"/> 
                    <div className="posts">
-                        <p>{item.title}</p>
-                        <p>{item.words}</p>
+                        <p className="title">{item.title}</p>
+                        <p className="words">{item.words}</p>
                    </div> 
                 </div>
             )
