@@ -47,7 +47,7 @@ export default function Footer() {
             src="https://www.tgbd.org.tr/content/upload/companies/antalya-teknokentten-b910-20181220140353.png" width="100" height="50"></img>
           </div>
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <h6 class="text-uppercase font-weight-bold">ÜRÜNLERIMIZ</h6>
+            <h6 class="text-uppercase font-weight-bold">ÜRÜNLERİMİZ</h6>
             <p>
               <a className="footer-link" href="https://bora.eddanetwork.com/">
                 BORA Uzaktan Eğitim

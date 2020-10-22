@@ -38,11 +38,10 @@
   margin-bottom: 40px;
 }
 
-.text_p{
+.text_p {
   font-size: medium;
   font-weight: lighter;
 }
-
 
 @media screen and (max-width: 1200px) {
   .inner-container {

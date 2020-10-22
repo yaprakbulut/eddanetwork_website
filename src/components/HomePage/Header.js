@@ -30,6 +30,7 @@ export default function Header() {
               alt="Third slide"
             />
           </Carousel.Item>
+          
         </Carousel>
       </div>
     </div>

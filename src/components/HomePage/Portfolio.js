@@ -1,6 +1,9 @@
 import React from "react";
 import Title from "../Title";
 import { ProductConsumer } from "../Context/Context";
+import Reveal from 'react-reveal/Reveal';
+import Fade from 'react-reveal/Fade';
+
 
 export default function Portfolio() {
   return (
@@ -13,31 +16,43 @@ export default function Portfolio() {
               <div className="portfolio-center">
                 <div className="single-portfolio">
                   <Title title="ERP" color="#df080e" />
+                  <Fade up>
                   <p >
-                    Biz bir Ar-Ge şirketiyiz. Zaten yazılmış olan yazılımlar
-                    bazen işinizi görmez. O zaman işletmenize özel yazılım veya
-                    otomasyon ihtiyacı olduğunda, işinizi geliştirmeye yönelik
-                    bir yazılıma ihtiyaç duyduğunuzda arayabileceğiniz bir
-                    dostunuzuz.
+                  Amacı, tüm üretim süreçlerinin takip edilmesi ve otomasyonunun yapılması olan ve Kosgeb’den de
+onay alan projemizin 3 ana özelliği öne çıkıyor. Birincisi; Ürün entegratörü, jenerik yapısı ile
+kullanışlı bir modül. İkincisi; Logo entegrasyonunu da jenerik hale getirdik ve minimum müdahale
+ile entegrasyonu sağladık. Üçüncüsü de; ürünlerin üretim süreçlerinin de içinde bulunduğu
+etiketleme ve izleme modülünü geliştirdik.
                   </p>
+                  </Fade>
                 </div>
 
                 <div className="single-portfolio">
                   <Title title="IOT" color="#df080e" />
+                  <Fade up>
                   <p>
-                  Güvenilirlik, sürdürülebilir ve yenilikçi çözümler, sağlam ve kullanıcı dostu sistemler.
+                  Üretim , nakliye, bakım (özellikle kestirme bakım) süreçlerinde özellikle anlık müdahale gerektiren
+kalite yönetimi isteklerini yerine getirmek amacıyla, bulut teknolojilerinin de içinde olduğu , sahip
+olduğumuz sabit/mobil cihazlarımızla izleme / takip etme / önlem alma kararlarını ve
+raporlamalarını almak üzere yeni ve güvenilir cihazımız üzerinde çalışmalara başladık. Tak çalıştır
+mantığı, wi-fi / zigbee / gsm / lorawan özelliklerini barındıracak cihazımız, genel maksat veya
+projeye özel tasarımlarıyla 2020 yılının sonuna doğru ürün haline getirmeyi planlıyoruz. Hali
+hazırda sahip olduğumuz kiosk teknolojisiyle birleştireceğimiz nice projelerimizle sizlerle birlikte
+çalışmayı hedefliyoruz.
                   </p>
+                  </Fade>
                 </div>
 
                 <div className="single-portfolio">
                   <Title title="Bora Uzaktan Eğitim" color="#df080e"/>
+                  <Fade up>
                   <p>
-                    Yazılım ve otomasyon, bir işletmeye direkt veya dolaylı
-                    yoldan para kazandırır. Ya personelin verimi arttırarak
-                    şirketin kârını arttırmalı, ya da anlık müdahaleler ve bilgi
-                    akışlarıyla(raporlama) gereksiz para kayıplarınızı
-                    önlemelidir.
+                  Temellerini 2012 yılında attığımız ve açık kaynak kod kullandığımız uzaktan eğitim sistemimiz faal
+olarak kullanılmaktadır. Şu an havacılık sektöründe hız alsa da diğer sektörler tarafından da
+kullanılabilir bir yapıdadır. Soru bankası ve sınav çeşitliliği ile kullanımı kolay ve geliştirilebilir bir
+yapıdadır.
                   </p>
+                  </Fade>
                 </div>
               </div>
             </div>

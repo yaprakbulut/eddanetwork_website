@@ -95,10 +95,11 @@ export const Portfolio = [
 export const blogItems = [
   {
     id: 1,
-    img: "https://c0.wallpaperflare.com/preview/538/994/362/device-digital-device-doctor-document.jpg",
-    title: "Sigorta Yönetim Sistemi",
+    img: "https://hexaware.com/wp-content/uploads/2019/10/Hi-Tech-Platforms-Information-Services.jpg",
+    title: "Edda Kurumsal Kaynak Planlama Yazılım Sistemi",
     words:
-      "Sağlık sigortacılığı alanında hizmet veren şirketlerin iş süreçlerini yüretebilmeleri amacıyla açık kaynaklı mimari ile yazılım paketi.",
+      "Bir işletmenin tüm kaynaklarının birleştirilip, verimli olarak kullanılması için tasarlanmış sistemdir.",
+    
   },
   {
     id: 2,
@@ -146,10 +147,10 @@ export const blogItems = [
   },
   {
     id: 8,
-    img: "https://hexaware.com/wp-content/uploads/2019/10/Hi-Tech-Platforms-Information-Services.jpg",
-    title: "Edda Kurumsal Kaynak Planlama Yazılım Sistemi",
+    img: "https://c0.wallpaperflare.com/preview/538/994/362/device-digital-device-doctor-document.jpg",
+    title: "Sigorta Yönetim Sistemi",
     words:
-      "Bir işletmenin tüm kaynaklarının birleştirilip, verimli olarak kullanılması için tasarlanmış sistemdir.",
+      "Sağlık sigortacılığı alanında hizmet veren şirketlerin iş süreçlerini yüretebilmeleri amacıyla açık kaynaklı mimari ile yazılım paketi.",
   },
 ];
 
