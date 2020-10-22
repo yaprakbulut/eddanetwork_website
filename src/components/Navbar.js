@@ -53,7 +53,7 @@ export default function Navbar() {
 }
 
 const NavWrapper = styled.div`
-  position: sticky;
+  position: initial;
   top: 0;
   z-index: 6;
 
